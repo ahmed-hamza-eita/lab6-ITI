@@ -26,8 +26,8 @@ android {
             )
         }
     }
-    buildFeatures{
-        viewBinding =true
+    buildFeatures {
+        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -48,14 +48,17 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     //sdp & ssp
-    implementation ("com.intuit.sdp:sdp-android:1.1.0")
-    implementation ("com.intuit.ssp:ssp-android:1.1.0")
+    implementation("com.intuit.sdp:sdp-android:1.1.0")
+    implementation("com.intuit.ssp:ssp-android:1.1.0")
     //Toast Style
-    implementation ("io.github.muddz:styleabletoast:2.4.0")
+    implementation("io.github.muddz:styleabletoast:2.4.0")
 
     //glide
-    implementation ("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.14.2")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
+
+    //splash api
+    implementation("androidx.core:core-splashscreen:1.0.1")
 
 
 }
